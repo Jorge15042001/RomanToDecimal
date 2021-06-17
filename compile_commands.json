@@ -1,0 +1,38 @@
+[
+ {
+  "directory": "/home/jorge1504/Desktop/FILES/projeects/RomanToDecimal",
+  "arguments": [
+   "g++",
+   "-std=c++17",
+   "-c",
+   "-o",
+   "build/obj/DecimalNumber.o",
+   "src/DecimalNumber.cpp"
+  ],
+  "file": "src/DecimalNumber.cpp"
+ },
+ {
+  "directory": "/home/jorge1504/Desktop/FILES/projeects/RomanToDecimal",
+  "arguments": [
+   "g++",
+   "-std=c++17",
+   "-c",
+   "-o",
+   "build/obj/main.o",
+   "src/main.cpp"
+  ],
+  "file": "src/main.cpp"
+ },
+ {
+  "directory": "/home/jorge1504/Desktop/FILES/projeects/RomanToDecimal",
+  "arguments": [
+   "g++",
+   "-std=c++17",
+   "-c",
+   "-o",
+   "build/obj/RomanNumbers.o",
+   "src/RomanNumbers.cpp"
+  ],
+  "file": "src/RomanNumbers.cpp"
+ }
+]

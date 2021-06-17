@@ -7,7 +7,8 @@
 #include <boost/lexical_cast.hpp>
 #include "RomanNumbers.h"
 #include "DecimalNumber.h"
-int getInt(){
+int getInt()
+{
    std::string input;
    std::cin>>input;
    if (input.compare("done")==0)return -1;// si el usuario desea salir retorna -1
@@ -19,7 +20,8 @@ int getInt(){
        return getInt();
    }
 }
-void runRomanConversion(){
+void runRomanConversion()
+{
     
     loadConversionMapToInt();
     std::string roman;
@@ -31,7 +33,8 @@ void runRomanConversion(){
         std::cin>>roman;
     }
 }
-void runIntConversion(){
+void runIntConversion()
+{
     loadConversionMapToRoman();
     int input= getInt();
     while (input>0){

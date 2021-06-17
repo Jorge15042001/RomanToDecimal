@@ -24,7 +24,6 @@ std::vector<int>transfrom(int n,int multiplier){
     if (repetitions==4)response.insert(response.begin(),multiplier);
     else for (;repetitions>0;repetitions--)response.emplace_back(multiplier);
 
-
     return response;
 }
 std::string vectorToString(std::vector<int>&nums){
